@@ -1,0 +1,45 @@
+-->docker ps
+-->docker images
+-->ls
+-->clear
+-->exit
+-->history
+-->docker pull conatianer name
+-->docker run -d -p80:80 httpd
+-->docker exec -it container id /bin/bash
+--->docker start conatiner id.
+-->docker rm container id
+-->docker rm -rf conatiner id
+-->docker cp filepath(that is to deploy) destination path(where you want to deploy).
+==============================================================================
+JENKINS:-
+=========================
+JENKINS SERVER INSTALLATION:-
+-------------------------------------
+-->sudo su -
+-->sudo yum update
+-->
+-->sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+-->sudo yum install java -y
+-->sudo yum install jenkins
+-->java --version
+-->sudo systemctl status jenkins
+-->sudo systemctl enable jenkins
+-->sudo systemctl start jenkins
+-->sudo systemctl status jenkins
+-->sudo yum install firewalld
+-->sudo systemctl enable firewalld
+-->sudo systemctl start firewalld
+-->sudo systemctl status firewalld
+-->sudo firewall-cmd --get-default-zone
+-->sudo firewall-cmd --get-zones
+-->sudo firewall-cmd --list-all
+-->sudo firewall-cmd --list-all-zones
+-->sudo firewall-cmd --add-service="service name"
+-->sudo firewall-cmd --remove-service="service name"
+-->sudo firewall-cmd --permanent --add-port=(portnumber/service)
+-->sudo firewall-cmd --remove-port=(portnumber/service)
+-->sudo firewall-cmd --reload
+-->exit
+-->IN the web browser type public ip:portnumber
+-----------------------------------------------------------------------
