@@ -18,10 +18,15 @@ JENKINS SERVER INSTALLATION:-
 -------------------------------------
 -->sudo su -
 -->sudo yum update
--->
+-->curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+-->echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+-->the above two commands are if we installing jenkins on ubuntu then we need to excute thos two commands.
 -->sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 -->sudo yum install java -y
--->sudo yum install jenkins
+-->sudo yum install jenkins  and to install on ubuntu sudo apt-get install openjdk-11-jre
 -->java --version
 -->sudo systemctl status jenkins
 -->sudo systemctl enable jenkins
