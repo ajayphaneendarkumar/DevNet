@@ -1,3 +1,5 @@
+DOCKER:-
+=======================================
 -->docker ps
 -->docker images
 -->ls
@@ -48,3 +50,22 @@ JENKINS SERVER INSTALLATION:-
 -->exit
 -->IN the web browser type public ip:portnumber
 -----------------------------------------------------------------------
+GIT COMMANDS:-
+===============================================
+-->git config --global user.name "sample user"
+-->git config --global user.email sample@example.com
+-->git config ---list  -->At any time, you can review these setting with the git config --list command.
+-->mkdir git-intro -->make a directory called git-intr0
+-->cd git-intro -->changing to git-intro directory
+-->git init -->this to initialize current directory as a repository
+-->git status
+-->git add filename -->changes to be commited or staging the file.
+-->git commit -m "committing filename to begin tracking changes".
+-->git log -->to view the commit history
+-->git diff <commit id original> <commit id latest>
+-->git branch <branch-name> -->creating branch 
+-->git branch -->verifying current branch
+-->git checkout <branch-name> -->check out to feature branch.
+-->git branch -d <branch-name> -->to delete the branch.
+-->git merge branch
+--------------------------------------------------------------------
