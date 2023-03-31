@@ -16,6 +16,8 @@ DOCKER:-
 ==============================================================================
 JENKINS:-
 =========================
+jenkins is a open soruce automation tool written in java with plugins built for continuous integration purpose.
+------------------------------------------------------------------------------------------------------------------
 JENKINS SERVER INSTALLATION:-
 -------------------------------------
 -->sudo su -
@@ -69,3 +71,14 @@ GIT COMMANDS:-
 -->git branch -d <branch-name> -->to delete the branch.
 -->git merge branch
 --------------------------------------------------------------------
+DEVOPS:-
+==========
+-->Devops is a software development approach which involves in continuous integration, continuous testing ,continuous development , continuous Deployment and continuous monitoring throught its development lifecycle .
+-->Devops stages:-
+  ---------------
+    -->version control(soruce code management) -->maintains different versions of the code
+    -->continuous integration(continuos bulid) -->compile ,validate ,code review ,unit and integration testing.
+    -->continuos delivery(continuos testing)  -->Deploying bulid application to the test servers
+    -->continuos deployment  -->Deploying tested application on the porduct server to release
+---> 
+
