@@ -51,6 +51,10 @@ JENKINS SERVER INSTALLATION:-
 -->sudo firewall-cmd --reload
 -->exit
 -->IN the web browser type public ip:portnumber
+-->to install github in linux -->sudo yum install git-all -y
+-->to install maven in linux -->sudo yum install maven
+-->mvn --version
+-->git version
 -----------------------------------------------------------------------
 GIT COMMANDS:-
 ===============================================
