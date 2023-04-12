@@ -55,7 +55,28 @@ JENKINS SERVER INSTALLATION:-
 -->to install maven in linux -->sudo yum install maven
 -->mvn --version
 -->git version
------------------------------------------------------------------------
+-->wget -->this command is used to download any file from browser.
+-------------------------------------------------------------------
+installing tomact server in amzon linux:-
+------------------------------------------------
+-->search for download tomact in browser and copy the link of tar.gz file link and execute the command
+    -->wget "paste the link here" 
+    -->after that unzip that file using the command 
+           -->tar xvzf "apcahe file here"
+-->rm -rf "previuos file before unzipping"
+-->mv "apache file" tomcat
+-->cd tomact
+-->ls
+-->lsof -i -n -P | grep LISTEN  -->"i" -->ipv4 files ,"n" -->numerical files ,"p" -->port
+-->install java
+-->cd bin
+-->ls
+-->"sh startup.sh" -->tomacat sever will be started
+-->and got to "lsof -i -n -P | grep LISTEN" -->COPY THE IP ADDRESS.
+-->to run tomact sever on other port number -->goto "cd conf and open the file server.xml -->"nano server.xml"
+-->add the new port number at the connector line
+-->executethe command -->"sh shutdown.sh" and again execute the command "sh startup.sh"
+---------------------------------------------------------------------------------------------------------------
 GIT COMMANDS:-
 ===============================================
 -->git config --global user.name "sample user"
@@ -84,5 +105,7 @@ DEVOPS:-
     -->continuous integration(continuos bulid) -->compile ,validate ,code review ,unit and integration testing.
     -->continuos delivery(continuos testing)  -->Deploying bulid application to the test servers
     -->continuos deployment  -->Deploying tested application on the porduct server to release
----> 
+---> AGILE MODEL:-
+===========================
+--->
 
