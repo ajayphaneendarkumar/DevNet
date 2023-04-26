@@ -105,7 +105,17 @@ DEVOPS:-
     -->continuous integration(continuos bulid) -->compile ,validate ,code review ,unit and integration testing.
     -->continuos delivery(continuos testing)  -->Deploying bulid application to the test servers
     -->continuos deployment  -->Deploying tested application on the porduct server to release
----> AGILE MODEL:-
-===========================
---->
+ ========================================================================================
+Configure Management in DEvops:-
+==================================
+-->The Tools used in configure management are:
+   -->Ansible
+       -->Ansible is a open soruce automation tool that helps in automate software provisining , configure Management ,web application deployment in a free , reliable 
+       easy  way.
+       -->Ansible works on the easy and humman understandable yaml file format.
+       -->Ansible is agentless ,which means it doesn't require any software to be installed on the targeted systems.
+   -->chef
+   -->puppet
+   -->salt
+   
 
